@@ -1,0 +1,13 @@
+npx prisma migrate dev --name init
+npx prisma migrate push --name init(doesnot save sql)
+
+
+//change someting in existing model
+npx prisma generate
+npx prisma migrate dev --name name_change
+
+
+nest g module database
+nest g service database
+
+ nest g resource employees
