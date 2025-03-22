@@ -11,3 +11,6 @@ nest g module database
 nest g service database
 
  nest g resource employees
+
+ nest g module MyLogger
+nest g service MyLogger
